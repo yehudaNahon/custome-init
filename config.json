@@ -1,0 +1,32 @@
+{
+    "processes": [
+        {
+            "id": "PURPLE",
+            "path": "sleep",
+            "params": [
+                "2"
+            ],
+            "uid": 1000,
+            "gid": 1000,
+            "capabilities": [
+                "RAW_ETH"
+            ],
+            "ipcs": [
+                "/tmp/purple2red"
+            ]
+        },
+        {
+            "id": "PURPLE",
+            "path": "ls",
+            "params": [],
+            "uid": 1000,
+            "gid": 1000,
+            "capabilities": [
+                "RAW_ETH"
+            ],
+            "ipcs": [
+                "/tmp/purple2red"
+            ]
+        }
+    ]
+}

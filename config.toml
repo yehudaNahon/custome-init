@@ -1,0 +1,9 @@
+[processes]
+purple = {id= "PURPLE", 
+        path= "bin/purple", 
+        params= ["hello", world], 
+        uid= 100, 
+        gid= 200, 
+        capabilities= ["RAW_ETH"], 
+        ipcs= ["/tmp/purple2red"]
+        }

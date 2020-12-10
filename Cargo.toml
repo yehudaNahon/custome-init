@@ -1,0 +1,16 @@
+[package]
+authors = ["Yehuda Nahon <yehudanahon98@gmail.com>"]
+edition = "2018"
+name = "generic-init"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+config_struct = {version = "~0.5.0", features = ["json-parsing"]}
+
+[dependencies]
+duct = "0.13.4"
+log = "0.4"
+nix = "0.19.1"
+simple_logger = "1.6"
